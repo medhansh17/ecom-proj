@@ -1,0 +1,59 @@
+HELP.md
+
+# Build
+target/
+build/
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Maven/Gradle
+.mvn/wrapper/maven-wrapper.properties
+.mvn/wrapper/maven-wrapper.jar
+.gradle/
+
+# IDEs
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+.idea
+*.iws
+*.iml
+*.ipr
+.vscode/
+.nbproject/private/
+.nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+*.out
+*.tmp
+*.swp
+
+# Databases
+*.h2.db
+*.mv.db
+*.trace.db
+
+# AWS / Secrets
+.env
+*.pem
+application-*.yml
+application-*.properties
+
+# Other
+out/
+bin/
